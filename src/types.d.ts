@@ -1,4 +1,4 @@
-export interface Character
+export interface CharacterOriginal
 {
     "id": "int",
     "name": "string",
@@ -60,4 +60,10 @@ export interface Character
         }
     ]
     }
+}
+
+export interface Character {
+    id: string,
+    name: string,
+    thumbnail: string
 }
